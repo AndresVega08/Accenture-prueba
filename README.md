@@ -86,25 +86,25 @@ GET /franquicias/sucursales/{id}/producto-mayor-stock
 
 ## Funcionalidades adicionales 
 
-✔ Actualizar stock de producto
+Actualizar stock de producto
 
 ```
 PUT /franquicias/productos/{id}/stock
 ```
 
-✔ Eliminar producto
+Eliminar producto
 
 ```
 DELETE /franquicias/productos/{id}
 ```
 
-✔ Obtener producto con mayor stock por franquicia
+Obtener producto con mayor stock por franquicia
 
 ```
 GET /franquicias/{id}/productos-mayor-stock
 ```
 
-✔ Actualizar nombre de franquicia, sucursal y producto
+Actualizar nombre de franquicia, sucursal y producto
 
 ```
 PUT /franquicias/{id}
